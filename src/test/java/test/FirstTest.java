@@ -14,4 +14,13 @@ class FirstTest {
 
         assertEquals(10, first.sum(4, 6));
     }
+
+    @Test
+    void sum2Test() {
+        First first = new First();
+
+        int sum = first.sum(7,6);
+
+        assertEquals(13, sum);
+    }
 }
