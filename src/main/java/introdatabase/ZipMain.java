@@ -25,7 +25,7 @@ public class ZipMain {
             }
             return result;
         } catch (IOException ioException) {
-            throw new IllegalStateException("not read file", ioException);
+            throw new IllegalStateException("Can not read file", ioException);
         }
     }
 
