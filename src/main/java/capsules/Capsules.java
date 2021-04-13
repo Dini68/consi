@@ -45,5 +45,11 @@ public class Capsules {
 
         c.removeFirst();
         System.out.println(c.getColors());
+
+        List<String> result = c.getColors();
+
+        result.clear();
+
+        System.out.println(c.getColors());
     }
 }
